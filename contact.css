@@ -1,0 +1,31 @@
+/* formatting global */
+
+.contact-text {
+   width: 50%;
+   padding: auto;
+}
+
+/* contact padding */
+.contacthead, .contactemail, p {
+    padding-left: 1rem;
+}
+
+/* contact header */
+.contacthead {
+    padding-top: 10vh;
+    font-size: 12vh;
+    text-decoration: underline;
+}
+
+/* email formatting */
+.contactemail {
+    text-decoration: none;
+    color: #000;
+}
+
+/* image formatting */
+
+.contactimg1 {
+    padding-top: 5%;
+    height: 15rem;
+}

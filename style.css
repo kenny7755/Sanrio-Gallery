@@ -1,0 +1,98 @@
+/* global font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* global formatting */ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* background image */
+body {
+  min-height: 100vh;
+  background: url(background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* header */
+.sanrioheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    z-index: 100;
+    box-shadow: 10px 10px 5px -8px #000000;
+}
+
+/* home button formatting */ 
+.sanriohome {
+  font-size: 32px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* navigate bar formatting */ 
+.navbar a {
+    position: relative;
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+/* navigate bar styling */
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 105%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+/* nav hovering */
+.navbar a:hover:before {
+    width:100%;
+}
+
+/* logo */
+.sanriohome img{
+    margin-top: 0;
+    position: relative;
+    width: 5vw;
+    top: 0px;
+    vertical-align: middle;
+}
+
+/* Home Image */
+.imageswrap{
+    max-width: 320vh;
+    display: flex;
+}
+ /* Home Image and text */
+.wrapper {
+    margin: 150px auto;
+    width: 65%;
+}
+
+/* Intro paragraph */
+.text-box {
+    vertical-align: middle;
+}
+
+/* Gallery Intro */
+.text-box h2 {
+    text-decoration: underline;
+}
