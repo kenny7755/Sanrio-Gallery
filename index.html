@@ -2,15 +2,18 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css\download-styles.css">
+  <link rel="icon" href="favicon-cat.ico" type="image/x-icon">
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 </head> 
 <body>
 <header class="sanrioheader">
 <a href="index.html" class="sanriohome">Home
-  <img src='hellokittyhome.png'/>
+  <img src='homeimages/hellokittyhome.png'/>
 </a>
 <nav class="navbar">
-<a href="#">Hello Kitty</a>
+<a href="hellokitty.html">Hello Kitty</a>
 <a href="#">My Melody</a>
 <a href="#">Kuromi</a>
 <a href="#">Cinnamoroll</a>
@@ -20,7 +23,7 @@
 </header>
 <div class="wrapper">
   <div class="imageswrap">
-    <img src="homeimages/hellokittywave.gif"/>
+    <img src="homeimages\hellokittywave.gif"/>
   </div>
   <div class="text-box">
     <h2>Welcome To Choco's Gallery!</h2>
@@ -33,7 +36,18 @@
       the neocities profile. Take a look around and feel 
       free to download the ones you like the most! Happy viewing!
     </p>
+
   </div>
 </div>
+<div class="download-contain">
+<h4>Want to download all the files for each image carousel?
+  <br>Click to button corresponding to each page, or the download all button!  <br> (currently being fixed, unavaiable right now)
+ </h4>
+ <h6>Hello Kitty Files:</h6>
+ <a href="#">
+ <button id="hellokittybtn" onclick="downloadhk" type="button" download>Download</button>
+</a>
+ </div>
+ <script src="home.js"></script>
 </body>
 </html>
