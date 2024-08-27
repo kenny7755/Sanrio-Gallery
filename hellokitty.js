@@ -1,3 +1,6 @@
+// import Swiper JS
+import Swiper from 'swiper';
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
